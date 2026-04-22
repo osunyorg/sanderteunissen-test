@@ -1,6 +1,15 @@
 ---
 title: Main menu
 items:
+- title: Organizations
+  slug: organizations
+  target: "/organizations/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/organizations"
+  file: content/en/organizations/_index.html
 - title: Posts
   slug: posts
   target: "/posts/"
@@ -19,13 +28,4 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/en/persons/_index.html
-- title: Organizations
-  slug: organizations
-  target: "/organizations/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/organizations"
-  file: content/en/organizations/_index.html
 
